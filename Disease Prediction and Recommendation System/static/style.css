@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.active {
+    color: blue;
+}
+
+
+/* ----------Slides ------------- */
+.home-main-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.main-carousel {
+    background-color: rgba(33, 26, 131, 0.5);
+    border-radius: 8px;
+    height: 60vh;
+    /* height: auto; */
+}
+
+.carousel {
+    display: flex;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    font-weight: 600;
+    /* opacity: 1 !important; */
+    z-index: 1;
+}
+
+.carousel h4 {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: black;
+    font-weight: 700;
+}
+
+.carousel p {
+    float: left;
+    width: 60%;
+    z-index: 1;
+    margin: 0 20px 4px 40px;
+}
+
+.carousel img {
+    float: right;
+    width: 40%;
+    height: 250px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+.carousel button {
+    z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+    .home-main-container{
+        margin: 0px !important;
+    }
+
+    .main-carousel {
+        height: 55vh !important;
+        /* margin: -70px !important; */
+    }
+
+    .carousel {
+        width: 90vw;
+        display: block;
+        /* margin: -10px; */
+        margin-bottom: 10px;
+        z-index: 1;
+        
+    }
+
+    .carousel h4 {
+        margin: 5px 0 0 0;
+        font-size: 20px;
+    }
+
+    .carousel p {
+        width: 80%;
+        z-index: 1;
+        /* margin: 8px; */
+        margin: 0px !important;
+        /* margin-right: 4px !important; */
+        font-size: 12px;
+    }
+
+    .carousel img {
+        visibility: hidden;
+        max-height: 0;
+    }
+
+    .predict-btn {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-carousel {
+        height: 35vh !important;
+    }
+
+    main {
+        margin: auto !important;
+        margin-top: 40px !important;
+    }
+
+    .carousel {
+        height: 20vh;
+        width: 80vw;
+        display: block;
+        margin: -10px;
+        margin-bottom: 10px;
+        z-index: 1;
+        height: 20vh;
+    }
+
+    .carousel p {
+        width: 80%;
+        margin: auto;
+        margin-left: 55px;
+        font-size: 16px;
+    }
+
+    .carousel img {
+        display: none;
+    }
+
+    .carousel button {
+        margin-top: 10px;
+    }
+
+    .predict-btn {
+        margin-top: 180px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .predict-btn {
+        margin-top: 100px;
+    }
+}
+
+/* ----------------------------------------------------------------/ */
+.main-container {
+    width: 60vw;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.main-container h3 {
+    /* padding: 10px; */
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    /* color: aliceblue; */
+    font-weight: bold !important;
+}
+
+
+@media screen and (max-width: 480px) {
+    .main-container h3 {
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+/* ------------------Report----------------------- */
+.report {
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+    color: white;
+    margin: auto;
+    /* margin-top: 40px; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.report .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.report .container1 {
+    width: 40%;
+    padding: 4px;
+}
+
+.report .container2 {
+    width: 40%;
+    /* background-color: red; */
+    padding: 4px;
+}
+
+.report h4{
+    font-weight: 500;
+}
+
+.container3 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container3 .exercises {
+    width: 50%;
+    /* background-color: red; */
+    padding: 8px;
+}
+
+.container3 .exe {
+    font-size: 18px;
+    /* font-weight: bold; */
+    margin-top: 10px;
+}
+
+.container3 .diets{
+    width: 50%;
+    padding-top: 8px;
+    margin-left: 80px;
+}
+.container3 .diet {
+    display: flex;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .report .container{
+        display: block;
+    }
+
+    .report h4{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .container3{
+        display: block;
+    }
+
+    .container3 .exercises{
+        width: 100% !important;
+    }
+
+    .container3 .exe{
+        font-size: 14px;
+    }
+
+    .container3 .diets{
+        width: 100%;
+        margin: 0px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .container3 .diet{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container3 .exe {
+        font-size: 15px;
+    }
+    .container3 .diet{
+        font-size: 15px;
+    }
+}
+ 
+
+/* -----------------------login/ Signup--------------- */
+.login-container, .signup-container{
+    width: 40vw;
+    margin: auto;
+    margin-top: 20vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 2px;
+    background-color: white;
+}
+@media screen and (max-width: 480px) {
+    .login-container, .signup-container{
+        width: 80vw;
+        margin-top: 10vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .login-container, .signup-container{
+        width: 60vw;
+        margin-top: 15vh;
+    }
+}
+
+
