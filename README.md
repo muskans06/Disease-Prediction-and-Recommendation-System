@@ -4,6 +4,7 @@ Screenshots
 
 <img width="735" alt="image" src="https://github.com/muskans06/Disease-Prediction-and-Recommendation-System/assets/75152108/4c26797f-cc97-4bdb-bdaf-5a58ee14622a">
 
+
 <img width="717" alt="image" src="https://github.com/muskans06/Disease-Prediction-and-Recommendation-System/assets/75152108/5d2d4148-9b60-4302-9f5b-146a1689f667">
 
 Disease list page
@@ -23,6 +24,7 @@ Diabetes check
 <img width="701" alt="image" src="https://github.com/muskans06/Disease-Prediction-and-Recommendation-System/assets/75152108/bbb93092-577e-478a-bbb9-1518d9a0321d">
 
 Kideny Disease Check
+
 <img width="553" alt="image" src="https://github.com/muskans06/Disease-Prediction-and-Recommendation-System/assets/75152108/22740c42-0696-4e5d-b82f-03632152e3fa">
 
 etc..
